@@ -9,7 +9,7 @@ import { ProductResponse } from '../models/product-response.model';
   providedIn: 'root'
 })
 export class ProductsService {
-  private baseUrl = 'http://localhost:8000/';
+  private baseUrl = 'http://localhost:8080/';
 
   constructor(private http: HttpClient) { }
 
